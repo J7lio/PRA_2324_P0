@@ -46,7 +46,7 @@ void BrazoRobotico::soltar(){
 	cogiendo = false;
 }
 
-void mover(double xx, double yy, double zz){
+void BrazoRobotico::mover(double xx, double yy, double zz){
 	x = xx;
 	y = yy;
 	z = zz;
